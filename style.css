@@ -1,23 +1,23 @@
-﻿
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
+﻿  
+    /* Usuń domyślne dolne i zaokrąglone obramowania paska nawigacyjnego */ 
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
     }
     
-    /* Add a gray background color and some padding to the footer */
+    /* Dodaj szary kolor tła i trochę dopełnienia do stopki */
     footer {
       background-color: gray;
       padding: 10px;
     }
     
-  .carousel-inner img {
-      width: 100%; /* Set width to 100% */
+      .carousel-inner img {
+      width: 100%; /* Ustaw szerokość na 100% */
       margin: auto;
       min-height:200px;
   }
 
-  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  /* Ukryj tekst karuzeli, gdy szerokość ekranu jest mniejsza niż 600 pikseli */
   @media (max-width: 600px) {
     .carousel-caption {
       display: none; 
